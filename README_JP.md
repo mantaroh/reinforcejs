@@ -3,17 +3,14 @@
 **REINFORCEjs** はいくつかの共通 RL アルゴリズムを実装し、Web でも を含む教科学習ライブラリです。特に現在以下の機能を持っています。
 
 - **ダイナミックプログラミング** 手法
-- (表) ** TD 学習**(SARSA/Q-Learning)
-- (Tabular) **Temporal Difference Learning** (SARSA/Q-Learning)
-- **Deep Q-Learning** for Q-Learning with function approximation with Neural Networks
+- ** TD 学習**(SARSA/Q-Learning)
 - ニューラルネットワークを用いた関数近似による Q学習である **Deep Q-Learning**
-- 連続的な行動空間を扱うための**確率/決定方策勾配法** とActor-Critics アーキテクチャ。(*α機能で、バグが多くまた、とても気むずかしく矛盾をはらんでいます*)
+- 連続的な行動空間を扱うための**確率/決定方策勾配法** とActor-Critics アーキテクチャ。(*α機能で、バグが多くまた扱いにくく矛盾をはらんでいます*)
 
 さらなる詳細、ドキュメント、デモについては、[main webpage](http://cs.stanford.edu/people/karpathy/reinforcejs)を参照してください。
 
 # Code Sketch
 
-The former contains various kinds of utilities for building expression graphs (e.g. LSTMs) and performing automatic backpropagation, and is a fork of my other project [recurrentjs](https://github.com/karpathy/recurrentjs). The `RL` object contains the current implementations:
 ライブラリーは２つのグローバル変数('R' と 'RL')をエクスポートしています。前者('R')はグラフ表現を構築し、自動バックプロパゲーションをするためのユーティリティで、[recurrentjs](https://github.com/karpathy/recurrentjs)プロジェクトのフォークです。'RL'オブジェクトには現在以下の実装があります。
 
 - `RL.DPAgent`:動的環境での有限状態/行動空間を扱う。
@@ -39,7 +36,7 @@ setInterval(function(){ // start the learning loop
 }, 0);
 ```
 
-完全なドキュメントとでもは[main webpage](http://cs.stanford.edu/people/karpathy/reinforcejs)にあります。
+完全なドキュメントとデモは[main webpage](http://cs.stanford.edu/people/karpathy/reinforcejs)にあります。
 
 # License
 
