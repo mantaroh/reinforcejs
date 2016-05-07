@@ -1,9 +1,11 @@
 # REINFORCEjs
 
+これは、**REINFORCEjs**の個人的な日本語翻訳です。最新情報等は[本家](https://github.com/karpathy/reinforcejs)を参照してください。
+
 **REINFORCEjs** はいくつかの共通 RL アルゴリズムを実装し、Web でも を含む教科学習ライブラリです。特に現在以下の機能を持っています。
 
 - **ダイナミックプログラミング** 手法
-- ** TD 学習**(SARSA/Q-Learning)
+- **TD 学習**(SARSA/Q-Learning)
 - ニューラルネットワークを用いた関数近似による Q学習である **Deep Q-Learning**
 - 連続的な行動空間を扱うための**確率/決定方策勾配法** とActor-Critics アーキテクチャ。(*α機能で、バグが多くまた扱いにくく矛盾をはらんでいます*)
 
