@@ -2,7 +2,7 @@
 
 これは、**REINFORCEjs**の個人的な日本語翻訳です。最新情報等は[本家](https://github.com/karpathy/reinforcejs)を参照してください。
 
-**REINFORCEjs** はいくつかの共通 RL アルゴリズムを実装し、Web でも を含む教科学習ライブラリです。特に現在以下の機能を持っています。
+**REINFORCEjs** はいくつかの共通 RL アルゴリズムを実装し、Web を含む強化学習ライブラリです。特に現在以下の機能を持っています。
 
 - **ダイナミックプログラミング** 手法
 - **TD 学習**(SARSA/Q-Learning)
